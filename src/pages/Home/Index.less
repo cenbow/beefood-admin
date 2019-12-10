@@ -1,0 +1,26 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+.iconGroup {
+  i {
+    margin-left: 16px;
+    color: @text-color-secondary;
+    cursor: pointer;
+    transition: color 0.32s;
+    &:hover {
+      color: @text-color;
+    }
+  }
+}
+
+.twoColLayout {
+  .map{
+    width: 100%;
+    height: 500px;
+  }
+  .submitButtons{
+    display: block;
+    margin-bottom: 24px;
+    white-space: nowrap;
+  }
+}
